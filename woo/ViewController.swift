@@ -13,7 +13,7 @@ class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
-        println("i cant wait to push this project")
+        print("i cant wait to push this project")
     }
 
     override func didReceiveMemoryWarning() {
