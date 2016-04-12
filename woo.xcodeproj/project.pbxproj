@@ -1,0 +1,507 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		36FE88011CBCBBB20043BF6B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36FE88001CBCBBB20043BF6B /* AppDelegate.swift */; };
+		36FE88031CBCBBB20043BF6B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36FE88021CBCBBB20043BF6B /* ViewController.swift */; };
+		36FE88061CBCBBB30043BF6B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 36FE88041CBCBBB20043BF6B /* Main.storyboard */; };
+		36FE88081CBCBBB30043BF6B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 36FE88071CBCBBB30043BF6B /* Assets.xcassets */; };
+		36FE880B1CBCBBB30043BF6B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 36FE88091CBCBBB30043BF6B /* LaunchScreen.storyboard */; };
+		36FE88161CBCBBB60043BF6B /* wooTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36FE88151CBCBBB60043BF6B /* wooTests.swift */; };
+		36FE88211CBCBBB80043BF6B /* wooUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36FE88201CBCBBB80043BF6B /* wooUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		36FE88121CBCBBB60043BF6B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 36FE87F51CBCBBB20043BF6B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 36FE87FC1CBCBBB20043BF6B;
+			remoteInfo = woo;
+		};
+		36FE881D1CBCBBB70043BF6B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 36FE87F51CBCBBB20043BF6B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 36FE87FC1CBCBBB20043BF6B;
+			remoteInfo = woo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		36FE87FD1CBCBBB20043BF6B /* woo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = woo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		36FE88001CBCBBB20043BF6B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		36FE88021CBCBBB20043BF6B /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		36FE88051CBCBBB20043BF6B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		36FE88071CBCBBB30043BF6B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		36FE880A1CBCBBB30043BF6B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		36FE880C1CBCBBB30043BF6B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		36FE88111CBCBBB60043BF6B /* wooTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = wooTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		36FE88151CBCBBB60043BF6B /* wooTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = wooTests.swift; sourceTree = "<group>"; };
+		36FE88171CBCBBB70043BF6B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		36FE881C1CBCBBB70043BF6B /* wooUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = wooUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		36FE88201CBCBBB80043BF6B /* wooUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = wooUITests.swift; sourceTree = "<group>"; };
+		36FE88221CBCBBB80043BF6B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		36FE87FA1CBCBBB20043BF6B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		36FE880E1CBCBBB60043BF6B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		36FE88191CBCBBB70043BF6B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		36FE87F41CBCBBB20043BF6B = {
+			isa = PBXGroup;
+			children = (
+				36FE87FF1CBCBBB20043BF6B /* woo */,
+				36FE88141CBCBBB60043BF6B /* wooTests */,
+				36FE881F1CBCBBB80043BF6B /* wooUITests */,
+				36FE87FE1CBCBBB20043BF6B /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		36FE87FE1CBCBBB20043BF6B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				36FE87FD1CBCBBB20043BF6B /* woo.app */,
+				36FE88111CBCBBB60043BF6B /* wooTests.xctest */,
+				36FE881C1CBCBBB70043BF6B /* wooUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		36FE87FF1CBCBBB20043BF6B /* woo */ = {
+			isa = PBXGroup;
+			children = (
+				36FE88001CBCBBB20043BF6B /* AppDelegate.swift */,
+				36FE88021CBCBBB20043BF6B /* ViewController.swift */,
+				36FE88041CBCBBB20043BF6B /* Main.storyboard */,
+				36FE88071CBCBBB30043BF6B /* Assets.xcassets */,
+				36FE88091CBCBBB30043BF6B /* LaunchScreen.storyboard */,
+				36FE880C1CBCBBB30043BF6B /* Info.plist */,
+			);
+			path = woo;
+			sourceTree = "<group>";
+		};
+		36FE88141CBCBBB60043BF6B /* wooTests */ = {
+			isa = PBXGroup;
+			children = (
+				36FE88151CBCBBB60043BF6B /* wooTests.swift */,
+				36FE88171CBCBBB70043BF6B /* Info.plist */,
+			);
+			path = wooTests;
+			sourceTree = "<group>";
+		};
+		36FE881F1CBCBBB80043BF6B /* wooUITests */ = {
+			isa = PBXGroup;
+			children = (
+				36FE88201CBCBBB80043BF6B /* wooUITests.swift */,
+				36FE88221CBCBBB80043BF6B /* Info.plist */,
+			);
+			path = wooUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		36FE87FC1CBCBBB20043BF6B /* woo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 36FE88251CBCBBB80043BF6B /* Build configuration list for PBXNativeTarget "woo" */;
+			buildPhases = (
+				36FE87F91CBCBBB20043BF6B /* Sources */,
+				36FE87FA1CBCBBB20043BF6B /* Frameworks */,
+				36FE87FB1CBCBBB20043BF6B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = woo;
+			productName = woo;
+			productReference = 36FE87FD1CBCBBB20043BF6B /* woo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		36FE88101CBCBBB60043BF6B /* wooTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 36FE88281CBCBBB80043BF6B /* Build configuration list for PBXNativeTarget "wooTests" */;
+			buildPhases = (
+				36FE880D1CBCBBB60043BF6B /* Sources */,
+				36FE880E1CBCBBB60043BF6B /* Frameworks */,
+				36FE880F1CBCBBB60043BF6B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				36FE88131CBCBBB60043BF6B /* PBXTargetDependency */,
+			);
+			name = wooTests;
+			productName = wooTests;
+			productReference = 36FE88111CBCBBB60043BF6B /* wooTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		36FE881B1CBCBBB70043BF6B /* wooUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 36FE882B1CBCBBB80043BF6B /* Build configuration list for PBXNativeTarget "wooUITests" */;
+			buildPhases = (
+				36FE88181CBCBBB70043BF6B /* Sources */,
+				36FE88191CBCBBB70043BF6B /* Frameworks */,
+				36FE881A1CBCBBB70043BF6B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				36FE881E1CBCBBB70043BF6B /* PBXTargetDependency */,
+			);
+			name = wooUITests;
+			productName = wooUITests;
+			productReference = 36FE881C1CBCBBB70043BF6B /* wooUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		36FE87F51CBCBBB20043BF6B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0720;
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = "Justin Lee";
+				TargetAttributes = {
+					36FE87FC1CBCBBB20043BF6B = {
+						CreatedOnToolsVersion = 7.2.1;
+					};
+					36FE88101CBCBBB60043BF6B = {
+						CreatedOnToolsVersion = 7.2.1;
+						TestTargetID = 36FE87FC1CBCBBB20043BF6B;
+					};
+					36FE881B1CBCBBB70043BF6B = {
+						CreatedOnToolsVersion = 7.2.1;
+						TestTargetID = 36FE87FC1CBCBBB20043BF6B;
+					};
+				};
+			};
+			buildConfigurationList = 36FE87F81CBCBBB20043BF6B /* Build configuration list for PBXProject "woo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 36FE87F41CBCBBB20043BF6B;
+			productRefGroup = 36FE87FE1CBCBBB20043BF6B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				36FE87FC1CBCBBB20043BF6B /* woo */,
+				36FE88101CBCBBB60043BF6B /* wooTests */,
+				36FE881B1CBCBBB70043BF6B /* wooUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		36FE87FB1CBCBBB20043BF6B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				36FE880B1CBCBBB30043BF6B /* LaunchScreen.storyboard in Resources */,
+				36FE88081CBCBBB30043BF6B /* Assets.xcassets in Resources */,
+				36FE88061CBCBBB30043BF6B /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		36FE880F1CBCBBB60043BF6B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		36FE881A1CBCBBB70043BF6B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		36FE87F91CBCBBB20043BF6B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				36FE88031CBCBBB20043BF6B /* ViewController.swift in Sources */,
+				36FE88011CBCBBB20043BF6B /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		36FE880D1CBCBBB60043BF6B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				36FE88161CBCBBB60043BF6B /* wooTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		36FE88181CBCBBB70043BF6B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				36FE88211CBCBBB80043BF6B /* wooUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		36FE88131CBCBBB60043BF6B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 36FE87FC1CBCBBB20043BF6B /* woo */;
+			targetProxy = 36FE88121CBCBBB60043BF6B /* PBXContainerItemProxy */;
+		};
+		36FE881E1CBCBBB70043BF6B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 36FE87FC1CBCBBB20043BF6B /* woo */;
+			targetProxy = 36FE881D1CBCBBB70043BF6B /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		36FE88041CBCBBB20043BF6B /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				36FE88051CBCBBB20043BF6B /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		36FE88091CBCBBB30043BF6B /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				36FE880A1CBCBBB30043BF6B /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		36FE88231CBCBBB80043BF6B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		36FE88241CBCBBB80043BF6B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		36FE88261CBCBBB80043BF6B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = woo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.woo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		36FE88271CBCBBB80043BF6B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = woo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.woo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		36FE88291CBCBBB80043BF6B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = wooTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.wooTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/woo.app/woo";
+			};
+			name = Debug;
+		};
+		36FE882A1CBCBBB80043BF6B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = wooTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.wooTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/woo.app/woo";
+			};
+			name = Release;
+		};
+		36FE882C1CBCBBB80043BF6B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = wooUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.wooUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = woo;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		36FE882D1CBCBBB80043BF6B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = wooUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.wooUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = woo;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		36FE87F81CBCBBB20043BF6B /* Build configuration list for PBXProject "woo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				36FE88231CBCBBB80043BF6B /* Debug */,
+				36FE88241CBCBBB80043BF6B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		36FE88251CBCBBB80043BF6B /* Build configuration list for PBXNativeTarget "woo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				36FE88261CBCBBB80043BF6B /* Debug */,
+				36FE88271CBCBBB80043BF6B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		36FE88281CBCBBB80043BF6B /* Build configuration list for PBXNativeTarget "wooTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				36FE88291CBCBBB80043BF6B /* Debug */,
+				36FE882A1CBCBBB80043BF6B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		36FE882B1CBCBBB80043BF6B /* Build configuration list for PBXNativeTarget "wooUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				36FE882C1CBCBBB80043BF6B /* Debug */,
+				36FE882D1CBCBBB80043BF6B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 36FE87F51CBCBBB20043BF6B /* Project object */;
+}
